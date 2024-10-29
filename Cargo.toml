@@ -63,6 +63,7 @@ optional = true
 
 [dependencies.vek]
 version = "0.15.10"
+default-features = false
 features = ["mint"]
 optional = true
 
