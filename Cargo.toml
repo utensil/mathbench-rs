@@ -65,14 +65,14 @@ version = "0.17.1"
 features = ["mint"]
 optional = true
 
-# [dependencies.pathfinder_geometry]
-# git = "https://github.com/theoparis/pathfinder.git"
-# rev = "05f19143e21a96027de7cf2d60fa47ecd8899d21"
-# optional = true
-
 [dependencies.pathfinder_geometry]
-version = "0.5.1"
+git = "https://github.com/theoparis/pathfinder.git"
+rev = "05f19143e21a96027de7cf2d60fa47ecd8899d21"
 optional = true
+
+# [dependencies.pathfinder_geometry]
+# version = "0.5.1"
+# optional = true
 
 [dependencies.static-math]
 version = "0.2.3"
